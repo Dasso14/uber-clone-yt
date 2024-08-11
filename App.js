@@ -20,13 +20,13 @@ export default function App() {
             <Stack.Navigator>
               <Stack.Screen 
                 name='HomeScreen' 
-                componet={HomeScreen}
+                component={HomeScreen}
                 options={{
                   headerShown: false,
                 }}/>
                 <Stack.Screen 
                 name='MapScreen' 
-                componet={MapScreen}
+                component={MapScreen}
                 options={{
                   headerShown: false,
                 }}
